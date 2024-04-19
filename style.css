@@ -1,0 +1,53 @@
+body {
+    background-image: url('Img/weather_bg_img.jpg');
+    background-size: contain;
+}
+.container, .row, .card{
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+#title{
+    text-transform: uppercase;
+    padding: 16px 0px 16px 0px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px 0px 16px 0px;
+    border: 0;
+}
+.col-div{
+    margin-bottom: 24px !important;
+}
+.card{
+    background-image: linear-gradient(to right, rgb(204, 183, 141), darkslategrey);
+    border: 1px solid rgb(194, 179, 179) !important;
+}
+.card-header{
+    padding: 0 !important;
+    border-bottom: 0 !important;
+    margin: 0 !important;
+    
+}
+.card-title{
+    border-radius: 4px 4px 0px 0px;
+    font-size: 18px !important;
+}
+.card-text, .btn{
+    font-size: 14px !important;
+    font-weight: 400;
+}
+.btn{
+    box-shadow: none !important;
+}
+.btn:hover{
+    color: gold !important;
+    border: 1px solid white !important;
+}
+.btn-close{
+    right: 10px;
+    top: 10px;
+}
+.modal-body{
+    font-weight: 400;
+}
